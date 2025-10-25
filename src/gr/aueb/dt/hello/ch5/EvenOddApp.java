@@ -41,6 +41,7 @@ public class EvenOddApp {
      * @return      true if input param is odd, false otherwise.
      */
     public static boolean isOdd(int a) {
-        return !isEven(a);
+        return a % 2 != 0;
+        // return !isEven(a);
     }
 }
